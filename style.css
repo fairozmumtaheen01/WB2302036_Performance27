@@ -1,0 +1,41 @@
+.box1{
+    height:250px;
+    width:250px;
+    padding: 20ox;
+    border: 5px solid #000;
+    background-color: aqua;
+    background-image:repeating-radial-gradient(circle,red 10% 20%,yellow 20% 40%,green 40% 60%);
+}
+
+.box2{
+    height:250px;
+    width:250px;
+    padding: 20ox;
+    border-radius: 50%;
+    border: 5px solid #000;
+    background-color: aqua;
+    background-image:repeating-conic-gradient(from 90deg,red 0deg,red 90deg,yellow 90deg ,yellow 180deg,green 180deg,green 270deg,blue 270deg,blue 360deg);
+}
+
+.box3{
+    height:250px;
+    width:250px;
+    padding: 10ox;
+    border: 20px solid #000;
+    border-image: linear-gradient(rgb(94, 94, 199),rgb(124, 10, 29),rgb(165, 64, 47)) 50;
+    background-color: aqua;
+    background-image:repeating-conic-gradient(green 10%, rgb(182, 53, 182) 60deg 20deg);
+    color:#fff;
+}
+.box4{
+    height: 200px;
+    width: 200px;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.2),0 6px 21px 0 rgba(0, 0, 0, 0.20);
+    }
+img{
+    width: 100%;
+
+}
+p{
+    text-align: center;
+}
